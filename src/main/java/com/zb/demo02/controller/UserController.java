@@ -24,6 +24,7 @@ public class UserController {
 
     @RequestMapping("hi")
     public String hello(){
+        System.out.println("");
         System.out.println("当前端口："+port);
         return "hello";
     }
